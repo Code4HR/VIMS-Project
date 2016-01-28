@@ -11,4 +11,4 @@ var dat = _.map(data.nodes, function(node) {
 });
 
 
-console.log(JSON.stringify(dat));
+console.log(JSON.stringify(dat, null, 4));
